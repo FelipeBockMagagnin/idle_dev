@@ -1,63 +1,63 @@
 # IDLE DEV
 
-> Um jogo incremental (idle game) para desenvolvedores. Comece consertando bugs, termine refatorando o universo.
+> An incremental (idle game) for developers. Start by fixing bugs, end by refactoring the universe.
 
-![Capa do Jogo](todo) ---
+![Game Cover](todo) ---
 
-## 🎮 Sobre o Jogo
+## 🎮 About The Game
 
-`IDLE DEV` é um jogo idle/incremental inspirado no clássico *NGU Idle*, mas com uma temática 100% focada no universo da programação e na vida de um desenvolvedor.
+`IDLE DEV` is an idle/incremental game inspired by the classic *NGU Idle*, but with a theme 100% focused on the programming universe and the life of a developer.
 
-Comece como um "Estagiário Ocioso" (Idle Intern) e treine suas *skills* (como `Attack` e `Defence`), lute contra *bosses*, ganhe *gold* e veja seus números subirem até o infinito!
+Start as an noob and train your *skills* (like `Attack` and `Defence`), fight *bosses*, earn *gold*, and watch your numbers go up to infinity!
 
-## ✨ Funcionalidades Planejadas
+## ✨ Planned Features
 
-Baseado no diagrama original, o jogo planeja incluir:
+Based on the original diagram, the game plans to include:
 
-* **🏋️ Training:** Treine seus status básicos (Attack, Defence, etc.) usando Energia.
-* **👹 Fight Boss:** Lute contra bosses para ganhar XP, Ouro e Itens.
-* **🗺️ Adventure:** Um modo de jogo AFK para farmar itens e gold automaticamente.
-* **⛏️ Miners:** Compre mineradoras de bitcoin para gerar gold passivamente.
-* **🎓 Online Course:** Treine status de "conhecimento" como `attack` e `defence`.
-* **... e muito mais!** (Pit, Sr. Training, Sass, Virtual Box, etc.)
+* **🏋️ Training:** Train your basic stats (Attack, Defence, etc.) using Energy.
+* **👹 Fight Boss:** Battle bosses to earn XP, Gold, and Items.
+* **🗺️ Adventure:** An AFK game mode to automatically farm items and gold.
+* **⛏️ Miners:** Buy bitcoin miners to passively generate gold.
+* **🎓 Online Course:** Train "knowledge" stats like `attack` and `defence`.
+* **... and much more!** (Pit, Sr. Training, Sass, Virtual Box, etc.)
 
-## 💻 Tech Stack (Tecnologias Utilizadas)
+## 💻 Tech Stack
 
-Este projeto foi construído com uma stack moderna de front-end, pensando em performance e na possibilidade de se tornar um PWA publicado na Play Store e APP store:
+This project is built with a modern front-end stack, focusing on performance and the potential to become a PWA published on the Play Store and App Store:
 
-* **[Vue.js 3](https://vuejs.org/):** O framework reativo principal.
-* **[Vite](https://vitejs.dev/):** Build tool de alta performance para desenvolvimento e build.
-* **[Pinia](https://pinia.vuejs.org/):** A solução de gerenciamento de estado para o Vue.
-* **[Vue Router](https://router.vuejs.org/):** Para a navegação entre paginas.
+* **[Vue.js 3](https://vuejs.org/):** The main reactive framework.
+* **[Vite](https://vitejs.dev/):** High-performance build tool for development and build.
+* **[Pinia](https://pinia.vuejs.org/):** The state management solution for Vue.
+* **[Vue Router](https://router.vuejs.org/):** For page navigation.
 
 ---
 
-## 🚀 Rodando o Projeto Localmente
+## 🚀 Running the Project Locally
 
-Você precisa ter o [Node.js](https://nodejs.org/en/) (v18+ ou superior) instalado.
+You must have [Node.js](https://nodejs.org/en/) (v18+ or higher) installed.
 
-1.  **Clone o repositório:**
+1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/FelipeBockMagagnin/idle_dev.git](https://github.com/FelipeBockMagagnin/idle_dev.git)
     cd idle_dev
     ```
 
-2.  **Instale as dependências:**
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-3.  **Inicie o servidor de desenvolvimento:**
+3.  **Start the development server:**
     ```bash
     npm run dev
     ```
 
-4.  Abra `http://localhost:5173` (ou a porta indicada no terminal) no seu navegador.
+4.  Open `http://localhost:5173` (or the port shown in your terminal) in your browser.
 
-### Scripts Disponíveis
+### Available Scripts
 
-* `npm run dev`: Inicia o servidor de desenvolvimento.
-* `npm run build`: Compila o projeto para produção (na pasta `/dist`).
-* `npm run lint`: Executa o linter (ESLint) para verificar a qualidade do código.
+* `npm run dev`: Starts the development server.
+* `npm run build`: Compiles the project for production (in the `/dist` folder).
+* `npm run lint`: Runs the linter (ESLint) to check code quality.
 
 ---
