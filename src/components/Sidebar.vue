@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>IDLE DEV</h2>
+    <h2>NaN IDLE</h2>
   </div>
 
   <RouterLink to="/"> Training </RouterLink>
